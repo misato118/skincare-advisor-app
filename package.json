@@ -2,6 +2,8 @@
   "name": "skincare-advisor-app",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@azure/msal-react": "^2.0.19",
     "@emotion/react": "^11.11.4",
@@ -22,10 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "nodemon index.js"
   },
   "eslintConfig": {
     "extends": [
