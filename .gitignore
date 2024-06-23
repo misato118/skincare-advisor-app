@@ -25,5 +25,4 @@ yarn-error.log*
 # env
 .env
 
-BACKEND_URI.js
 /deployment
